@@ -1,0 +1,101 @@
+/* Update this file with your styling rules. */
+* {
+	font-size: 24px;
+	font-family: Courier, Georgia;
+}
+
+body {
+	background-color: #252525;
+	color: lightgreen;
+}
+
+ul {
+	list-style-type: none;
+	background-color: #303050;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+li {
+	float: left;
+	margin-left: 0px;
+	border-right: 1px solid white;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+li a:hover {
+	background-color: #505075;
+}
+
+h1 {
+	font-size: 36pt;
+}
+
+
+.clear_left {
+	clear: left;
+}
+
+.btn {
+	border: 1px solid blue;
+	background-color: lightgray;
+	width: 4em;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+
+.key_val_row {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom-style: dotted;
+  	border-bottom-width:2px;
+	display: inline-block;		// shrink to width of contents
+	overflow:auto;
+}
+
+
+.key {
+	width:	5em;
+	float: left;
+}
+
+.value {
+	width:	4em;
+	float: left;
+	margin-left: 1em;
+}
+
+.display {
+	width: 50vw;
+	float: left;
+	margin-left: 0.5em;
+}
+
+.delItemBtn {
+	width: 5em;
+}
+
+.error {
+	color: red;
+	font-style: italic; 
+}
+
+
+div.size_view, div.list_view {
+	float: left;
+}
+
+div.size_view {
+	margin-left: 2em;
+}

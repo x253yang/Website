@@ -1,0 +1,17 @@
+BONUS
+
+Team challenge:
+
+Xudong Yang’s files:
+courselist.html
+mvc.js
+ajax.js
+style.css
+
+Yuchen Ma’s files:
+UHungry.html
+Class.css
+nonClass.css
+app.js
+
+You can switch between the pages through a navigation bar at the top of the screen.

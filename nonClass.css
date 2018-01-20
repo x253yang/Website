@@ -1,0 +1,73 @@
+
+* {
+    font-size: 24px;
+    font-family: "Courier New";
+}
+
+body {
+    background-color: black;
+    color: lightblue;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #303035;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    margin-left: 0px;
+    border-right: 1px solid white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: #505055;
+}
+
+
+h1 {
+    font-size: 36pt;
+}
+
+
+button {
+    border: 1px solid blue;
+    background-color: white;
+    width: 10em;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 526px) and (min-device-width: 526px) {
+    button {
+        margin-left: 11em;
+    }
+}
+
+select {
+    border: 1px solid red;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 526px) and (min-device-width: 526px) {
+    select {
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+}
+

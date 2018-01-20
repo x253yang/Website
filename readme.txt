@@ -1,0 +1,3 @@
+Update this file with info about your app, especially your enhancements. 
+
+Subject: click the input box and select a subject from the dropdown menu. Number: input a number into the number text box (note entering letters is accepted due to cases like FR 192a) Click + to input a class (error will come up below if class is invalid) Click - to delete a class from the list List length shows the number of classes in the list Enhancement: To add all classes for a subject, have a subject selected and the number text box empty, then click +. This uses a different API query.

@@ -1,0 +1,115 @@
+/* Update this file with your styling rules. */
+
+.appControl {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.clear_left {
+    clear: left;
+}
+
+.key_val_row {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+@media screen and (max-width: 569px)  {
+    .key_val_row {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        width:100%;
+    }
+}
+
+.key {
+    width:	10em;
+    height: 1em;
+    text-align: left;
+    float: left;
+}
+
+@media screen and (min-width: 526px) and (min-device-width: 526px) {
+    .key {
+        text-align: right;
+    }
+}
+
+.key2 {
+    width:	10em;
+    float: left;
+}
+
+@media screen and (max-width: 569px) {
+    .key2 {
+        margin-bottom: 0em;
+        margin-top: 5px;
+        font-weight: bold;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .key2 {
+        width:	15em;
+    }
+}
+
+.value {
+    width:	10em;
+    height: 2em;
+    float: left;
+    margin-left: 1em;
+}
+
+@media screen and (max-width: 525px) and (max-device-width: 525px) {
+    .value {
+        margin-left: 0em;
+    }
+}
+
+.value2 {
+    width: 12em;
+    float: left;
+    margin-left: 1em;
+}
+
+@media screen and (max-width: 569px) {
+    .value2 {
+        margin-top: 0em;
+        margin-bottom: 5px;
+        font-weight: normal;
+        margin-left: 0em;
+    }
+}
+@media screen and (min-width: 900px) {
+    .value2 {
+        width: 20em;
+    }
+}
+
+.delItemBtn {
+    width: 5em;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+}
+
+
+div.view1 {
+    float: left;
+}
+
+@media screen and (max-width: 569px) {
+    div.view1 {
+        width:100%;
+    }
+}
+
+div.size_view {
+    margin-left: 2em;
+}

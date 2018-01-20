@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta content="initial-scale=1.0" name="viewport">
+		<title>
+			Course List
+		</title>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js" type="text/javascript"></script>
+		<script src="app.js" type="text/javascript"></script>
+        <script src="ajax.js"></script>
+        <script src="mvc.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+    <!-- <body onload="startApp();doit()"> -->
+    <!-- <body onload="startApp();doit()"> -->
+	<body onload="doit()">
+		<!-- Update this file by adding your content inside the body. -->
+        <!-- Adding a access bar on top: -->
+        <ul>
+            <li><a href="./courselist.html">Course List</a></li>
+            <li><a href="./UHungry.html">UHungry?</a></li>
+        </ul>
+        <br>
+        <h1>
+            Course List
+        </h1>
+        
+        <div id="lv1" class="list_view">
+            <h2 class="key">Course</h2>
+            <div class="list clear_left"></div>
+        </div>
+        
+        <div class="clear_left"></div>
+        
+        <hr>
+        
+        <template id="list_item">
+            <div class="key_val_row">
+                <div class="key"></div>
+                <div class="display"></div>
+                <button class="btn clear_left">-</button>
+            </div>
+        </template>
+        
+        <template id="list_input">
+            <div>
+                <h2 class="key">Subject</h2>
+                <h2 class="value">Number</h2>
+                <div class="list clear_left"></div>
+            </div>
+            <div class="input_row" class="key_val_row">
+                <form name="dropbox" style="background-color:white;" class="key">
+                    <select name="subjectmenu" class="key" id="menu" onChange="updatekey(document.dropbox.subjectmenu.options[document.dropbox.subjectmenu.options.selectedIndex].value)">
+                        <option value="ACTSC" class="options"/>ACTSC</option>
+                        <option value="AMATH"/>AMATH</option>
+                        <option value="CO"/>CO</option>
+                        <option value="COMM"/>COMM</option>
+                        <option value="CS" selected/>CS</option>
+                        <option value="FR" />FR</option>
+                        <option value="MATH"/>MATH</option>
+                        <option value="MTHEL"/>MTHEL</option>
+                        <option value="PMATH"/>PMATH</option>
+                        <option value="SE"/>SE</option>
+                        <option value="STAT"/>STAT</option>
+                    </select>
+                </form>
+                <!-- <input type="text" class="key"> -->
+                <input type="text" class="value">
+                <button id="addItemBtn" class="btn">+</button>
+                <div class="error"></div>
+            </div>
+        </template>
+        
+                
+        <div id="sv1" class="size_view">
+            <h2>List Length: <span></span></h2>
+        </div>
+        
+        <br></br>
+        <p id="out"></p>
+		<div id="viewContent"></div> <!-- By default, the View contents will be added here. Change this if you wish. -->
+	</body>
+</html>
